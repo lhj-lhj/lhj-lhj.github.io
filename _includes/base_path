@@ -1,5 +1,13 @@
-{% if site.url %}
+{% if jekyll.environment == "development" %}
+  {% assign base_path = site.baseurl %}
+{% elsif site.url %}
   {% assign base_path = site.url | append: site.baseurl %}
-{% else %}
+{% elsif site.github and site.github.url %}
   {% assign base_path = site.github.url %}
+{% else %}
+  {% assign base_path = site.baseurl %}
+{% endif %}
+
+{% if base_path contains '0.0.0.0' %}
+  {% assign base_path = base_path | replace: '0.0.0.0', 'localhost' %}
 {% endif %}

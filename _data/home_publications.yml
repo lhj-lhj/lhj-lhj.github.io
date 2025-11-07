@@ -1,0 +1,16 @@
+-
+  title: "MetaSlot: Break Through the Fixed Number of Slots in Object-Centric Learning"
+  year: 2025
+  authors: "Hongjia Liu, Rongzhen Zhao, Haohan Chen, Joni Pajarinen"
+  venue: "NeurIPS 2025 (Poster)"
+  summary: "Introduces MetaSlot, a Slot Attention variant with a VQ-prototype codebook that dynamically adapts to varying object counts for interpretable, compositional perception."
+  image: "metaslot-thumb.png"
+  links:
+    - label: "paper"
+      url: "https://arxiv.org/abs/2505.20772"
+    # - label: "arxiv"
+    #   url: "https://arxiv.org/abs/2505.20772"
+    - label: "code"
+      url: "github.com/lhj-lhj/MetaSlot"
+    - label: "poster"
+      url: ""

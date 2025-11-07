@@ -1,152 +1,217 @@
 {
   "basics": {
-    "name": "Your Sidebar Name",
-    "email": "none@example.org",
-    "phone": "",
-    "website": "https://academicpages.github.io",
-    "summary": "Currently employed at Red Brick University. Short biography for the left-hand sidebar",
+    "name": "Hongjia Liu",
+    "email": "hongjia.liu@aalto.fi",
+    "phone": "+358 417405375",
+    "website": "https://lhj-lhj.github.io",
+    "summary": "Double-degree MSc student in autonomous systems and intelligent robots researching world models, imitation learning, and trustworthy perception.",
     "location": {
       "address": "",
       "postalCode": "",
-      "city": "Earth",
-      "countryCode": "US",
-      "region": ""
+      "city": "Stockholm",
+      "countryCode": "SE",
+      "region": "Sweden"
     },
     "profiles": [
       {
+        "network": "LinkedIn",
+        "username": "hongjia-liu-cv",
+        "url": "https://linkedin.com/in/hongjia-liu-cv"
+      },
+      {
         "network": "Google Scholar",
         "username": "",
-        "url": "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
-      },
-      {
-        "network": "ORCID",
-        "username": "",
-        "url": "http://orcid.org/yourorcidurl"
-      },
-      {
-        "network": "GitHub",
-        "username": "academicpages",
-        "url": "https://github.com/academicpages"
+        "url": "https://scholar.google.com/citations?user=eA6piPgAAAAJ"
       }
     ]
   },
-  "work": [],
+  "work": [
+    {
+      "name": "Astribot (Stardust Intelligence)",
+      "position": "Robotics Learning Algorithm Engineer",
+      "location": "Remote / Stockholm, Sweden",
+      "startDate": "2025-05",
+      "endDate": "",
+      "summary": "Investigating how RSSM-based world models interface with imitation learning and vision-language-action policies for multi-task robotic manipulation.",
+      "highlights": [
+        "Blend DreamerV2/V3 and TD-MPC2-style latents with ACT, Diffusion Policy, OpenPi, and OpenVLA controllers.",
+        "Research remedies for state confusion in multi-task settings by reshaping latent memory with object-centric signals."
+      ]
+    },
+    {
+      "name": "Zhejiang Lab",
+      "position": "Research Assistant",
+      "location": "Hangzhou, China",
+      "startDate": "2024-01",
+      "endDate": "2024-12",
+      "summary": "Explored 3D Gaussian Splatting pipelines for reflective surfaces such as automotive glass.",
+      "highlights": [
+        "Evaluated reconstruction fidelity vs. performance for large-scale scene captures.",
+        "Collaborated with interdisciplinary hardware and perception teams to prototype scalable systems."
+      ]
+    }
+  ],
   "education": [
     {
-      "institution": "GitHub University",
-      "area": "Ph.D in Version Control Theory",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2018",
-      "gpa": null,
+      "institution": "KTH Royal Institute of Technology",
+      "area": "MSc in Autonomous Systems and Intelligent Robots (Double Degree)",
+      "studyType": "Graduate",
+      "startDate": "2025-09",
+      "endDate": "2026-07",
       "courses": []
     },
     {
-      "institution": "GitHub University",
-      "area": "M.S. in Jekyll",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2014",
-      "gpa": null,
-      "courses": []
+      "institution": "Aalto University",
+      "area": "MSc in Autonomous Systems and Intelligent Robots (Double Degree)",
+      "studyType": "Graduate",
+      "startDate": "2024-09",
+      "endDate": "2026-07",
+      "score": "GPA 4.31/5",
+      "courses": [
+        "Reinforcement Learning",
+        "Digital and Optimal Control",
+        "Robotic Manipulation",
+        "Probabilistic Machine Learning",
+        "Dynamic System Modeling & Analysis",
+        "Supervised Machine Learning"
+      ]
     },
     {
-      "institution": "GitHub University",
-      "area": "B.S. in GitHub",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2012",
-      "gpa": null,
-      "courses": []
+      "institution": "Jiangnan University (Project 211)",
+      "area": "BEng in Computer Science and Technology",
+      "studyType": "Undergraduate",
+      "startDate": "2019-09",
+      "endDate": "2023-07",
+      "score": "GPA 3.54/4 · Rank 17/216 (Top 10%)",
+      "courses": [
+        "Advanced Mathematics",
+        "Probability and Statistics",
+        "Machine Learning",
+        "Algorithm Analysis & Design",
+        "Image Processing Techniques"
+      ]
     }
   ],
-  "skills": [],
-  "languages": [],
-  "interests": [],
-  "references": [],
+  "awards": [
+    {
+      "title": "Erasmus Scholarship",
+      "date": "2025",
+      "awarder": "European Union",
+      "summary": "Graduate mobility scholarship for double-degree studies."
+    },
+    {
+      "title": "Master’s Scholarship (50% Tuition Waiver)",
+      "date": "2024",
+      "awarder": "Aalto University",
+      "summary": "Merit-based tuition waiver for the autonomous systems program."
+    },
+    {
+      "title": "Excellent Bachelor Thesis",
+      "date": "2023",
+      "awarder": "Jiangnan University",
+      "summary": "Recognized for outstanding undergraduate thesis quality."
+    },
+    {
+      "title": "Mathematical Contest in Modeling, Finalist",
+      "date": "2022",
+      "awarder": "COMAP",
+      "summary": "Finalist distinction for the international MCM competition."
+    },
+    {
+      "title": "Lanqiao Cup, Third Prize (C/C++ Programming)",
+      "date": "2021",
+      "awarder": "Lanqiao Cup",
+      "summary": "National algorithm programming contest award."
+    },
+    {
+      "title": "Certified Software Engineer (Top 7.88%)",
+      "date": "2020",
+      "awarder": "Ministry of Industry and Information Technology, China",
+      "summary": "National certification exam placing within top 7.88% of candidates."
+    }
+  ],
   "publications": [
     {
-      "name": "Paper Title Number 1",
-      "publisher": "Journal 1",
-      "releaseDate": "2009-10-01",
-      "website": "http://academicpages.github.io/files/paper1.pdf",
-      "summary": "This paper is about the number 1. The number 2 is left for future work."
+      "name": "MetaSlot: Break Through the Fixed Number of Slots in Object-Centric Learning",
+      "publisher": "NeurIPS 2025 Poster",
+      "releaseDate": "2025-12",
+      "url": "https://arxiv.org/abs/2505.20772",
+      "summary": "Introduces MetaSlot, a Slot Attention variant with a VQ-prototype codebook for dynamic object counts."
     },
     {
-      "name": "Paper Title Number 2",
-      "publisher": "Journal 1",
-      "releaseDate": "2010-10-01",
-      "website": "http://academicpages.github.io/files/paper2.pdf",
-      "summary": "This paper is about the number 2. The number 3 is left for future work."
+      "name": "DMAGaze: Gaze Estimation Based on Feature Disentanglement and Multi-Scale Attention",
+      "publisher": "Pattern Recognition Letters (under review)",
+      "releaseDate": "2025-04",
+      "url": "https://arxiv.org/abs/2504.11160",
+      "summary": "Combines feature disentanglement and multi-scale attention for robust gaze prediction."
     },
     {
-      "name": "Paper Title Number 3",
-      "publisher": "Journal 1",
-      "releaseDate": "2015-10-01",
-      "website": "http://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about the number 3. The number 4 is left for future work."
-    },
-    {
-      "name": "Paper Title Number 4",
-      "publisher": "GitHub Journal of Bugs",
-      "releaseDate": "2024-02-17",
-      "website": "http://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about fixing template issue #693."
-    }
-  ],
-  "presentations": [
-    {
-      "name": "Talk 1 on Relevant Topic in Your Field",
-      "event": "UC San Francisco, Department of Testing",
-      "date": "2012-03-01",
-      "location": "San Francisco, CA, USA",
-      "description": ""
-    },
-    {
-      "name": "Tutorial 1 on Relevant Topic in Your Field",
-      "event": "UC-Berkeley Institute for Testing Science",
-      "date": "2013-03-01",
-      "location": "Berkeley, CA, USA",
-      "description": ""
-    },
-    {
-      "name": "Talk 2 on Relevant Topic in Your Field",
-      "event": "London School of Testing",
-      "date": "2014-02-01",
-      "location": "London, UK",
-      "description": ""
-    },
-    {
-      "name": "Conference Proceeding talk 3 on Relevant Topic in Your Field",
-      "event": "Testing Institute of America 2014 Annual Conference",
-      "date": "2014-03-01",
-      "location": "Los Angeles, CA, USA",
-      "description": ""
-    }
-  ],
-  "teaching": [
-    {
-      "course": "Teaching experience 1",
-      "institution": "University 1, Department",
-      "date": "2014-01-01",
-      "role": "Undergraduate course",
-      "description": ""
-    },
-    {
-      "course": "Teaching experience 2",
-      "institution": "University 1, Department",
-      "date": "2015-01-01",
-      "role": "Workshop",
-      "description": ""
-    }
-  ],
-  "portfolio": [
-    {
-      "name": "Portfolio item number 1",
-      "category": "portfolio",
-      "date": "",
+      "name": "DCDNet: Differential Capsule Disentanglement Network for Gaze Estimation",
+      "publisher": "IEEE Transactions on Instrumentation & Measurement (submitted)",
+      "releaseDate": "2025-05",
       "url": "",
-      "description": "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+      "summary": "Applies structural constraints and differential operations to suppress noise and retain gaze-relevant cues."
+    }
+  ],
+  "projects": [
+    {
+      "name": "Quantitative Investment Strategies for Gold and Bitcoin",
+      "startDate": "2022-01",
+      "summary": "Hybrid Random Forest + BiLSTM framework with sensitivity-tested trading ratios."
+    },
+    {
+      "name": "Mainboard Quality Inspection System (Faster R-CNN)",
+      "startDate": "2021-01",
+      "summary": "End-to-end defect inspection stack for production lines, covering annotation through tuned detection models."
+    },
+    {
+      "name": "ACM Algorithm Design Club / Hengwei Cup Organizer",
+      "startDate": "2020-01",
+      "summary": "Organized algorithm competitions focused on dynamic programming, topological sorting, and union-find."
+    }
+  ],
+  "skills": [
+    {
+      "name": "Programming",
+      "keywords": [
+        "Python",
+        "C/C++",
+        "Matlab",
+        "LaTeX",
+        "SQL",
+        "Java",
+        "R",
+        "C#"
+      ]
+    },
+    {
+      "name": "Machine Learning",
+      "keywords": [
+        "PyTorch",
+        "PyTorch Lightning",
+        "GPU training",
+        "Reinforcement learning",
+        "Imitation learning",
+        "Object-centric learning"
+      ]
+    },
+    {
+      "name": "Robotics",
+      "keywords": [
+        "ROS",
+        "Optimal control",
+        "World models",
+        "Vision-language-action policies"
+      ]
+    },
+    {
+      "name": "Software Engineering",
+      "keywords": [
+        "Git",
+        "DevSecOps",
+        "Agile development",
+        "OLTP/OLAP modeling"
+      ]
     }
   ]
 }
