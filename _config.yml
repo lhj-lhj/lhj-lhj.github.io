@@ -26,9 +26,9 @@ repository               : "lhj-lhj/lhj-lhj.github.io"
 author:
   # Biographic information
   avatar           : "HongjiaLiu.png"
-  name             : "Hongjia Liu"
-  pronouns         : # example: "she/her"  
-  bio              : "Double-degree MSc student in autonomous systems and intelligent robots researching world models, imitation learning, and reliable perception."
+  name             : "<span class='cn-calligraphy'>刘鸿嘉</span>"
+  # pronouns         : # example: "she/her"  
+  bio              : "The one is no longer said except the multiple."
   location         : "Stockholm, Sweden"
   employer         : "KTH Royal Institute of Technology & Aalto University"
   uri              : "https://lhj-lhj.github.io"
