@@ -12,7 +12,7 @@ My research spans reinforcement learning, robot learning, and representation lea
 My long-term goal is to build intelligent systems that can understand the world, interact with it physically, and continuously learn from those interactions.
 Ultimately, I aim to develop embodied agents that can free humans from repetitive and mundane tasks.
 
-Currently, I am working on dexterous hand manipulation using vision-language-action (VLA) models at the RPL Lab, KTH.
+Currently, I am working on dexterous hand manipulation using vision-language-action (VLA) models at the  [RPL Lab, KTH](https://www.kth.se/rpl).
 Previously, I interned at Astribot as a Robotic Learning Algorithm Researcher, where I explored integrating long-horizon memory into imitation learning and investigated slot-based, object-centric robotic manipulation.
 At Aalto University, I focus on object-centric learning, supervised by Prof. Joni Pajarinen.
 
